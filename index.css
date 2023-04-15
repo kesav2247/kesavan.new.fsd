@@ -1,0 +1,155 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#navbar{
+    position: sticky;
+    padding: 20px 20px;
+    background-color: rgb(8, 6, 6);
+    color: white;
+}
+.nav-link{
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+  border-bottom: 2px solid white;
+  color: aqua;
+}
+/***Home***/
+#home{
+  padding: 200px 500px;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+
+img{
+  height: 500px;
+  margin: 50px;
+  padding:30px;
+}
+#about{
+  width: 100%;
+  min-height: 100vh;
+}
+#about h4{
+  font-weight: 900;
+}
+h3{
+  text-align: center;
+  margin: 4px 0px;
+  background-color: black;
+  padding: 35px;
+  color: white;
+}
+#awards{
+  width: 100%;
+  min-height: 100vh;
+}
+.main{
+  text-align: center;
+  margin: 100px auto;
+  /* max-width: 550px; */
+  position: relative;
+  padding: 10px;
+}
+.main:before {
+  background-color: black;
+  display: block;
+  width: 570px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+.main:after {
+  background-color: black;
+  display: block;
+  width: 570px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.box-inside{
+  background-color:rgb(250, 247, 247);
+  margin: 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+h2{
+  text-align: center;
+  margin: 100px auto;
+  /* max-width: 550px; */
+  position: relative;
+  padding: 10px;
+}
+h2:before {
+  background-color: black;
+  display: block;
+  width: 200px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+h2:after {
+  background-color: black;
+  display: block;
+  width: 200px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+}
+.main2{
+  text-align: center;
+  margin: 100px auto;
+  /* max-width: 550px; */
+  position: relative;
+  padding: 10px;
+}
+.main2:before {
+  background-color: black;
+  display: block;
+  width: 110px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+.main2:after {
+  background-color: black;
+  display: block;
+  width: 110px;
+  height: 0.1px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+} 
+
